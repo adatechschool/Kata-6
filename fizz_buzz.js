@@ -11,14 +11,14 @@ for( let i=1; i<= n; i ++){
     }else if(i % 5 === 0){
         answer.push("Buzz")
     }else{
-        answer.push(`${i}`)
+        answer.push(i.toString())
     }
     // console.log(answer)
 }
 
-console.log(answer);
+return answer;
 // return answer * n
 }
 
-fizzBuzz(3);
-fizzBuzz(15);
+console.log(fizzBuzz(3));
+console.log(fizzBuzz(15));
